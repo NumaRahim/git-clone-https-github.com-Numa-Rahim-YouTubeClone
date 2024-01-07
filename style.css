@@ -1,0 +1,215 @@
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.hamburger {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: white;
+}
+
+.hamburger img {
+  width: 20px;
+  height: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  background-color: white;
+  border: none;
+}
+
+.logo img {
+  height: 30px;
+  width: auto;
+}
+
+.search-container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  margin-left: 20%;
+  margin-top: 8px;
+  width: 50px;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 20px;
+  font-size: 16px;
+  margin-left: 20%;
+}
+.searchicon {
+  height: 34px;
+  width: 41px;
+  margin-left: 130px;
+  border: none;
+}
+.voicesearch {
+  cursor: pointer;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  margin-left: 20%;
+}
+.uploadicon {
+  cursor: pointer;
+  border-radius: 25px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  margin-left: 75px;
+}
+.youtubeapps {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.notification {
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border: none;
+  background-color: white;
+}
+nav{
+    margin-left: 5px;
+}
+.home {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  border: none;
+  background-color: white;
+  margin-right: 10px;
+  margin: 5px;
+}
+.homedes {
+  margin-top: 0px;
+  margin-left: 10px;
+  font-size: 12px;
+}
+.explore {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.exploredes {
+  font-size: 12px;
+  margin-top: 0px;
+  margin-left: 5px;
+}
+.subscription {
+  margin: 5px;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  margin-top: 0px;
+}
+.subscriptiondes {
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.originals {
+  height: 40px;
+  width: 50px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.originalsdes {
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.youtubemusic {
+  height: 45px;
+  width: 45px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+.youtubedes {
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 8px;
+}
+.library {
+  width: 45px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  margin-top: 0px;
+  cursor: pointer;
+}
+.libdes {
+  margin-top: 0px;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin-left: 5px;
+  position: absolute;
+  top: 70px;
+  left: 50px;
+}
+
+.video {
+  display: flex;
+  flex-direction: column;
+}
+
+.video img {
+  width: 70%;
+  height: auto;
+  cursor: pointer;
+}
+
+.video-title {
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.video-description {
+  margin-top: 0px;
+  font-size: 14px;
+  color: gray;
+}
+.videodes {
+  margin-top: 0px;
+  font-size: 14px;
+  color: gray;
+}
